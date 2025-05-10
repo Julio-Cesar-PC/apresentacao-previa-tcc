@@ -61,4 +61,5 @@ Sinta-se à vontade para se inspirar, mas sempre cite o autor original.
 
 **Júlio César P. Cuencas**  
 jccuencas@inf.ufsm.br
+
 Orientadora: Prof.ª Andrea Schwertner Charão
