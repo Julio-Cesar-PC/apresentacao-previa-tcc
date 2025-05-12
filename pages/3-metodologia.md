@@ -17,7 +17,8 @@
 5. Coleta e análise de dados (quantitativos e qualitativos).
 
 ---
-
+layout: two-cols
+---
 # Tecnologias e Ferramentas
 
 ## Frontend
@@ -36,11 +37,31 @@
 - Integração com **OneCompiler** via iframe.  
 - Escolha baseada em custo zero, simplicidade e ausência de login obrigatório.
 
+::right::
+
+<img src="/tecnologias.png" alt="Tecnologias e Ferramentas" class="mx-auto mt-20 w-100" />
+
 ---
 
 # Estrutura da Plataforma
 
-<img src="/diagrama.png" class="mx-auto w-200" />
+
+```mermaid
+graph LR
+  subgraph Github Pages
+    Frontend("Frontend <br> (Vue + Vite)")
+  end
+  subgraph Google
+    OAuth("Google OAuth2")
+    Backend("Backend <br> (Google App Script)")
+    Sheets[("Google Sheets")]
+  end
+
+  Frontend --> OAuth
+  OAuth --> Backend
+  Frontend --> Backend
+  Backend --> Sheets
+```
 
 - O usuário acessa a interface desenvolvida em Vue.js, hospedada via GitHub Pages.
 
@@ -61,4 +82,4 @@
 ## Roteiro de avaliação:
 - **Introdução** - Apresentação do projeto (5 min).
 - **Teste** - Usuários utilizam a plataforma (20 min).
-- **Feedback** - Coleta de opiniões e sugestões (5 min).s
+- **Feedback** - Coleta de opiniões e sugestões (5 min

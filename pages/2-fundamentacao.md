@@ -13,20 +13,28 @@
 - Uso de ferramentas visuais que auxiliam na compreensão da lógica de programação.
 
 ---
+layout: two-cols
+---
 
 # Parsons Puzzles
 
 ## O que são
 
-- Exercícios onde o aluno organiza linhas de código embaralhadas para resolver um problema.
+* Exercícios onde o aluno organiza linhas de código embaralhadas para formar uma solução.
 
-## Benefícios
+## Vantagens
 
-- Reforçam o raciocínio lógico sem exigir digitação ou memorização de sintaxe.  
-- Ajudam a desenvolver compreensão da estrutura de algoritmos.  
-- Reduzem a carga cognitiva para iniciantes.
+* Desenvolvem o raciocínio lógico sem precisar digitar.
+* Ajudam a entender a estrutura dos algoritmos.
+* Facilitam o aprendizado para iniciantes.
 
-## Aplicações
+## Uso
 
-- Usados em diversas plataformas educacionais para introdução à programação.  
-- Eficazes para avaliar entendimento da lógica sem distratores sintáticos.
+* Comuns em plataformas de ensino de programação.
+* Avaliam a lógica do aluno sem focar na sintaxe.
+
+<p class="text-right">(Parsons e Haden, 2022)</p>
+
+::right::
+
+<img src="/parsons.png" alt="Parsons Puzzles" class="mx-auto mt-30 ml-10" />

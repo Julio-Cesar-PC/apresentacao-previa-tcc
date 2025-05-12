@@ -11,6 +11,8 @@
 - Utilizar a técnica **Parsons Puzzles**, que envolve reorganizar blocos de código.  
 - Focar no desenvolvimento da lógica antes da codificação completa.
 
+<p class="text-right">(Ericson, 2022)</p>
+
 ---
 
 # Objetivo
@@ -23,4 +25,4 @@
 
 - Adaptar o **js-parsons** à sintaxe da linguagem **C**.  
 - Desenvolver a interface com **Vue.js**.  
-- Testar a plataforma com estudantes reais e avaliar seu impacto.
+- Testar a plataforma com estudantes reais.
